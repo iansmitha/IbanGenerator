@@ -9,4 +9,5 @@ function display() {
 $('document').ready(function() {
     var active_country = "Spain"
     var x = document.body.innerHTML = buildIbans(active_country).substring(2);
+    document.title = x;
 });
